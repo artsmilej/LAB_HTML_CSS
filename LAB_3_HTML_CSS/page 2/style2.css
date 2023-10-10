@@ -1,0 +1,160 @@
+*{
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.main-container {
+    width: 100%;
+    height: 50%;
+    display : flex;
+    justify-content: space-around;
+}
+
+.first-container {
+    background-image: url(img/side_background2.svg);
+    width: 50%;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 900px;
+}
+
+.second-container {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.container-price {
+    padding: 10px;
+    background: rgba(255,255,255, 0.2);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    background: rgba(255,255,255, 0.5);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.price p {
+    font-size: 14px;
+    margin-top: 0;
+    display: inline;
+    color: #999999;
+}
+
+.second-container p {
+    font-size: 14px;
+    margin-top: 1%;
+    color: #999999;
+}
+
+.right-price h2 {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.right-price h3 {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.left-price {
+    width: 200px;
+}
+
+.left-price h2 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.price-type2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 180px;
+    background: rgba(255,255,255, 0.5);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.price-type2 h2 {
+    font-size: 22px;
+    text-align: left;
+}
+
+.price-type2 h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.second-container-form {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.second-container-form h3{
+    text-align: left;
+    padding-left: 24%;
+    padding-top: 1%;
+}
+
+button {
+    background-color: #03A9F4;
+    height: 50px;
+    width: 53%;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-family: cursive;
+    border: none;
+    color: #f5f5f5;
+    
+}
+
+.inputs {
+    width: 52%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.6%;
+    border-width: 0px;
+}
+
+select {
+    width: 53%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.6%;
+    border-width: 0px;
+}
+
+.button-combine {
+    
+}

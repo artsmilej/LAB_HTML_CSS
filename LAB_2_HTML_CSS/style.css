@@ -1,0 +1,94 @@
+body {
+    background-color: #EEF0F1;
+    font-family: sans-serif ;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #6474FF;
+    width: 100%;
+    height: 100px;
+
+}
+
+footer {
+    background-color: #6474FF;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.button-header {
+    background-color: #FFC000;
+    color: #ffffff;
+    float: right;
+    margin : 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    width: 400px;
+    margin: -50px auto;
+    margin-bottom: 30px;
+    padding: 20px 200px 30px 200px ;
+    border-radius: 20px;
+
+}
+
+.imgCard {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    display: block;
+    margin: 0 auto ;
+}
+
+.maincards {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.cards {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 10px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.list {
+    text-align: center;
+}
+
+.footerH2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
