@@ -115,6 +115,19 @@ h3 {
     padding-left: 10px;
 }
 
+.bottom-link{
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.back-img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    transform: rotate(270deg);
+}
 
 .second-container-form {
     text-align: center;
@@ -155,6 +168,31 @@ select {
     border-width: 0px;
 }
 
-.button-combine {
+.container-button {
     
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin-left: 23%;
+}
+
+.input-top {
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-image: url('img/visa-logo.png'), url('img/mastercard-logo.png'), url('img/maestro-logo.png'), url('img/paypal-logo.png');
+    background-size: 30px 15px;
+    background-repeat: no-repeat;
+    background-position: right 5px center, right 37px center, right 70px center, right 105px center;
+    padding-right: 90px;
+    box-sizing: border-box;
+}
+
+.button-combine {
+    display: flex;
+    border-top: 1px solid #ccc;
+    align-items: center;
 }

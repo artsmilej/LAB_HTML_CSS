@@ -27,12 +27,13 @@ footer {
     width: 100px;
     border-radius: 10px;
     font-size: 20px;
+    border: none;
 }
 
 .card {
     position: relative;
     background-color: #ffffff;
-    width: 400px;
+    width: 380px;
     margin: -50px auto;
     margin-bottom: 30px;
     padding: 20px 200px 30px 200px ;
@@ -46,6 +47,7 @@ footer {
     border-radius: 50% ;
     display: block;
     margin: 0 auto ;
+    border: 5px solid #6474FF;
 }
 
 .maincards {
